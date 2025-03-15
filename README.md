@@ -124,8 +124,8 @@ An intelligent medical assistant application that seamlessly integrates voice an
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/medical-assistant-ai.git
-   cd medical-assistant-ai
+   git clone https://github.com/Magizharasi/Hackathon_23BTRCC023/tree/main/voice-based-medical-assistant
+   cd voice-based-medical-assistant
 2. **Create and activate a virtual environment**
 
        # On Windows
