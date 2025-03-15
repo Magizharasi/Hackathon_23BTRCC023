@@ -49,4 +49,28 @@ Robust error handling and reconnection logic
 A microphone connected to your device
 
 ### Installation
+1.Clone this repository:
 
+      https://github.com/Magizharasi/Hackathon_23BTRCC023/tree/main/main
+      cd main
+2.Install Python dependencies:
+
+      bashCopypip install vosk sounddevice aiohttp aiohttp_cors websockets asyncio requests
+
+3.Download the Vosk model:
+      
+      bashCopy# Download the small English model
+      wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+      unzip vosk-model-small-en-us-0.15.zip
+
+4.Update the model path in app.py:
+
+      pythonCopyMODEL_PATH = "path/to/vosk-model-small-en-us-0.15"
+
+5.Obtain a Microsoft Translator API key:
+
+Sign up for the Microsoft Azure Translator service
+Create a resource and get your API key
+Update the API_KEY and REGION values in app.py:
+pythonCopyAPI_KEY = "your-api-key"
+REGION = "your-region"
